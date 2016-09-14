@@ -7,6 +7,12 @@ html{
 
 	height:50vh;
 	padding-top: 40px;
+		font-size: 40px;
+	font-weight: 300;
+	transition: height .3s;
+	color: white;
+	margin-top: 64px;
+	min-height: 320px;
 }
 .parallaxs{
 		background-image: url('../images/select.jpg');
@@ -20,15 +26,9 @@ html{
 	font-size: 80px;
 	margin: 0px;
 	padding-top: 0px;
+	transition: all .3s;
 	/*margin-bottom: 30px;*/
 	color: white;
-}
-#head{
-	font-size: 40px;
-	font-weight: 300;
-	color: white;
-	margin-top: 64px;
-	min-height: 320px;
 }
 #foss{
 	font-style: normal;
@@ -40,57 +40,16 @@ html{
 
 @media only screen and (max-width: 450px)
 {
-	#foss{
-		visibility: hidden;
+	#header{
+		font-size: 40px;
 	}
-	#logo{
-		width: 100%;
-		height: 50%;
+	#head{
+		padding-top: 10px;
+		min-height: 200px;
 	}
+
 }
 
-
-@media only screen and (max-width:450px)
-{
-	#foss{
-		visibility: hidden;
-	}
-}
-@keyframes weird{
-	0%{
-		font-style: normal;
-	}
-	10%{
-		font-style: italic;
-		color: white;
-		background: black;
-	}
-	15%{
-		font-style: normal;
-		color: black;
-		background: white;
-	}
-	40%{
-		font-style: italic;
-		color: white;
-		background: black;
-	}
-	42%{
-		font-style: normal;
-		color: black;
-		background: white;
-	}
-	70%{
-		font-style: italic;
-		color: white;
-		background: black;
-	}
-	100%{
-		font-style: normal;
-		color: black;
-		background: white;
-	}
-}
 #nav{
 	text-align: center;
 	position: fixed;
