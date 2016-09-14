@@ -17,7 +17,7 @@ html{
 .parallaxs{
 		background-image: url('../images/select.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat:repeat;
 }
 #header{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -93,6 +93,7 @@ font-family: 'Roboto Condensed', sans-serif;
 	transition: .3s ease;
 	/*transition: transform .1s;*/
 	overflow: hidden;
+	padding: 20px;
 	/*margin-bottom: 30px;*/
 }
 .container:hover{
@@ -128,6 +129,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 .bottom{
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 #logo{
 	height: 180px;
